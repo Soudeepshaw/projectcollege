@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.2rem;
+}
+.container {
+    max-width: 1180px;
+    
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden ;
+}
+.top-banner {
+
+    background-color: #4fb3d4;
+    background-size: 300px;
+}
+.banner-text {
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.flex{
+    align-items: center;
+    display: flex;
+}
+.main-nav{
+    
+    margin-top: 20px;
+    margin-right: 0%;
+    justify-content: space-between;
+}
+.company-logo img{
+    width: 200px;
+}
+.nav-links{
+    display: flex;
+    flex-basis: 550px;
+}
+.nav-links ul{
+    
+    justify-content: flex-start;
+    gap:20px;
+}
+.head-section{
+    justify-content: center;
+    gap:20px;
+}
+.header-left{
+    max-width: 40vw;
+}
+.header-right img {
+    width: 600px;
+}
+.header-left h1{
+    margin-top: 20px;
+    font-size: 3rem;
+}
+.get-started {
+    margin-top: 20px;
+}
+header{
+    padding: 50px;
+}
+.logos{
+    justify-content: center;
+    gap: 20px;
+}
+.logo{
+    width:100px;
+}
+.features-heading-text{
+    text-align: center;
+}
+.tbutton{
+    background:    #f3f3f3;
+border:        1px solid #000000;
+border-radius: 11px;
+width:         100px;
+height:        40px;
+color:         #000000;
+display:       inline-block;
+font:          normal bold 2 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+
+}
+.small-bold-text{
+    text-align: center;
+    font-size: 20px;
+}
+.see-all-features{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+   
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.feature-card{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    width: 200px;
+    gaP:12PX;
+}
+.features-area{
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+.girls-drawing img{
+    margin: 50px;
+    height:450px;
+    
+}
+.right-side{
+    display:flex ;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.optimisation{
+    margin-left: 50px;
+}
+.marketers p,h2,img{
+    margin: 20px;
+}
+.endless{
+  
+  font-size: 1.3rem
+}
+.possiblities{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+a:hover{
+    background-color: teal;
+    
+    
+}
+.sign{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.nav-links ul{
+    list-style-type:none;
+}
+@media screen and (max-width:600px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .logos .logo{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 30%;
+    }
+}

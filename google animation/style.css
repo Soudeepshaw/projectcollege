@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --animation-distance:300px
+}
+.conatiner{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+
+.box{
+    display: flex;
+    height: 11px;
+    width: 11px;
+    background-color: white;
+    animation: up-down 0.8s ease-in-out infinite alternate;
+    border-radius: 50%;
+    margin: 5px;
+}
+@keyframes up-down {
+    0%{
+        transform: translatey(0);
+    }
+    
+    100%{
+        transform: translatey(-30px);
+    }
+    
+}
+
